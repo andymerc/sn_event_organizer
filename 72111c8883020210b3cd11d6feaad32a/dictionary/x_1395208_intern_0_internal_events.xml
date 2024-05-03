@@ -2,7 +2,7 @@
     <element db_object_id="78125cc883020210b3cd11d6feaad3ef" label="Internal Events" max_length="40" name="x_1395208_intern_0_internal_events" type="collection">
         <element label="Brief Description" mandatory="true" max_length="100" name="brief_description" type="string"/>
         <element label="When will event occur?" mandatory="true" max_length="255" name="event_occurence" type="glide_date_time"/>
-        <element choice="3" default="1" label="Event Type" mandatory="true" max_length="40" name="event_type" type="choice">
+        <element choice="3" default="Meeting" label="Event Type" mandatory="true" max_length="40" name="event_type" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Meeting" sequence="0" value="Meeting"/>
                 <element inactive_on_update="false" label="Workshop" sequence="1" value="Workshop"/>
@@ -11,6 +11,9 @@
         </element>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element attributes="encode_utf8=false" label="Hosted by" mandatory="true" max_length="32" name="u_hosted_by" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Other" max_length="40" name="u_other" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Other" mandatory="true" max_length="140" name="u_other_event" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Other Event Type" mandatory="true" max_length="140" name="u_other_event_type" type="string"/>
         <index name="index">
             <element name="u_hosted_by"/>
         </index>

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="event_type" table="x_1395208_intern_0_internal_events">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="u_other_event" table="x_1395208_intern_0_internal_events">
         <active>true</active>
         <array>false</array>
-        <attributes/>
+        <attributes>edge_encryption_enabled=true</attributes>
         <audit>false</audit>
         <calculation/>
-        <choice>3</choice>
+        <choice>0</choice>
         <choice_field/>
         <choice_table/>
-        <column_label>Event Type</column_label>
+        <column_label>Other</column_label>
         <comments/>
         <create_roles/>
-        <default_value>Meeting</default_value>
+        <default_value/>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
@@ -21,15 +21,15 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>event_type</element>
+        <element>u_other_event</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <formula/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="Choice">choice</internal_type>
+        <internal_type display_value="String">string</internal_type>
         <mandatory>true</mandatory>
-        <max_length>40</max_length>
+        <max_length>140</max_length>
         <name>x_1395208_intern_0_internal_events</name>
         <next_element/>
         <primary>false</primary>
@@ -46,14 +46,14 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-05-03 16:20:20</sys_created_on>
-        <sys_name>Event Type</sys_name>
+        <sys_created_on>2024-05-03 17:57:52</sys_created_on>
+        <sys_name>Other</sys_name>
         <sys_package display_value="Internal Events" source="x_1395208_intern_0">72111c8883020210b3cd11d6feaad32a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Internal Events">72111c8883020210b3cd11d6feaad32a</sys_scope>
-        <sys_update_name>sys_dictionary_x_1395208_intern_0_internal_events_event_type</sys_update_name>
+        <sys_update_name>sys_dictionary_x_1395208_intern_0_internal_events_u_other_event</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-05-03 18:21:09</sys_updated_on>
+        <sys_updated_on>2024-05-03 18:28:19</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
