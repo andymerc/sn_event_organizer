@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="78125cc883020210b3cd11d6feaad3ef" label="Internal Events" max_length="40" name="x_1395208_intern_0_internal_events" type="collection">
         <element label="Brief Description" mandatory="true" max_length="100" name="brief_description" type="string"/>
-        <element label="When will event occur?" mandatory="true" max_length="255" name="event_occurence" type="glide_date_time"/>
+        <element label="Event Occurence" mandatory="true" max_length="255" name="event_occurence" type="glide_date_time"/>
         <element choice="3" default="Meeting" label="Event Type" mandatory="true" max_length="40" name="event_type" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Meeting" sequence="0" value="Meeting"/>
